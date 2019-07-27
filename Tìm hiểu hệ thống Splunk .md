@@ -41,7 +41,7 @@
        This appears to be your first time running this version of Splunk.
        An Admin password must be set before installation proceeds.
        Password must contain at least:
-       `* 8 total printable ASCII character(s).`
+       *8 total printable ASCII character(s).
        Please enter a new password: 
        Please confirm new password: 
        Copying '/opt/splunk/etc/openldap/ldap.conf.default' to '/opt/splunk/etc/openldap/ldap.conf'.
