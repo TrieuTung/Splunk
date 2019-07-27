@@ -59,7 +59,7 @@
 
        sudo service splunk start
 
-   Bây giờ hệ thống của bạn đang chạy và lắng nghe trên port:8000. Bạn có thể vào hệ thống của bạn trên web với đường dẫn sau: http://your_server_ip:8000. (User là admin và Pass là mật khẩu mình tạo bên trên)
+   Bây giờ hệ thống của bạn đang chạy và lắng nghe trên port:8000. Bạn có thể vào hệ thống của bạn trên web với đường dẫn sau: http://your_server_ip:8000/ (User là admin và Pass là mật khẩu bạn đã tạo bên trên).
    
 
 
