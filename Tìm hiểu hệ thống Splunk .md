@@ -1,5 +1,16 @@
 # Tìm hiểu hệ thống Splunk 
 1. Giới thiệu tổng quan về Splunk
+
+   Splunk là gì?
+      Splunk là môt công cụ vô cùng mạnh mẽ để tìm kiếm, khám phá và hiển thị tất cả các kiểu của dữ liệu.
+
+      Splunk đang phổ biến nhanh và nhiều hơn tại các doanh nghiệp, cả lớn và nhỏ. Các nhà phân tích, các người quản lý, sinh viên có thể nhanh chóng học cách sử dụng dữ liệu từ hệ thống, các mạng, lưu lượng truy cập web và các dữ liệu mạng xã hội của họ để tạo các báo cáo hấp dẫn và có nhiều thông tin.
+
+      Tên "Splunk" được lấy cảm hứng bởi quá trình khám phá các hang động hay splunking giúp các nhà phân tích, vận hành, lập trình viên khám phá dữ liệu từ tổ chức bằng việc thu thập phân tích và báo cáo dựa trên splunk.
+
+      Splunk là một công ty đa quốc gia được sáng lập bởi Michael Baum, Rob Das và Erik Swan có một sản phẩm chính là "Splunk Enterprise"
+
+
 2. Cài đặt hệ thống Splunk
  
    Splunk hỗ trợ một loạt các hệ điều hành bao gồm, Windows, Linux, FreeBSD, OSX, Solaris, AIX và nhiều hơn nữa. Bạn có thể tải xuống các phiên bản của Splunk từ trang web chính thức của họ hoặc sử dụng lệnh sau:
