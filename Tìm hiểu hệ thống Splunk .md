@@ -2,6 +2,7 @@
 1. Giới thiệu tổng quan về Splunk
 
    Splunk là gì?
+
       Splunk là môt công cụ vô cùng mạnh mẽ để tìm kiếm, khám phá và hiển thị tất cả các kiểu của dữ liệu.
 
       Splunk đang phổ biến nhanh và nhiều hơn tại các doanh nghiệp, cả lớn và nhỏ. Các nhà phân tích, các người quản lý, sinh viên có thể nhanh chóng học cách sử dụng dữ liệu từ hệ thống, các mạng, lưu lượng truy cập web và các dữ liệu mạng xã hội của họ để tạo các báo cáo hấp dẫn và có nhiều thông tin.
@@ -40,7 +41,7 @@
        This appears to be your first time running this version of Splunk.
        An Admin password must be set before installation proceeds.
        Password must contain at least:
-                  * 8 total printable ASCII character(s).
+       `* 8 total printable ASCII character(s).`
        Please enter a new password: 
        Please confirm new password: 
        Copying '/opt/splunk/etc/openldap/ldap.conf.default' to '/opt/splunk/etc/openldap/ldap.conf'.
