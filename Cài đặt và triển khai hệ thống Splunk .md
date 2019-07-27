@@ -48,13 +48,13 @@
        writing RSA key
        Moving '/opt/splunk/share/splunk/search_mrsparkle/modules.new' to '/opt/splunk/share/splunk/search_mrsparkle/modules'.
        Adding system startup for /etc/init.d/splunk ...
-                 /etc/rc0.d/K20splunk -> ../init.d/splunk
-                 /etc/rc1.d/K20splunk -> ../init.d/splunk
-                 /etc/rc6.d/K20splunk -> ../init.d/splunk
-                 /etc/rc2.d/S20splunk -> ../init.d/splunk
-                 /etc/rc3.d/S20splunk -> ../init.d/splunk
-                 /etc/rc4.d/S20splunk -> ../init.d/splunk
-                 /etc/rc5.d/S20splunk -> ../init.d/splunk
+        /etc/rc0.d/K20splunk -> ../init.d/splunk
+        /etc/rc1.d/K20splunk -> ../init.d/splunk
+        /etc/rc6.d/K20splunk -> ../init.d/splunk
+        /etc/rc2.d/S20splunk -> ../init.d/splunk
+        /etc/rc3.d/S20splunk -> ../init.d/splunk
+        /etc/rc4.d/S20splunk -> ../init.d/splunk
+        /etc/rc5.d/S20splunk -> ../init.d/splunk
        Init script installed at /etc/init.d/splunk.
        Init script is configured to run at boot.
 
