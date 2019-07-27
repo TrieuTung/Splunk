@@ -1,15 +1,17 @@
 # Tìm hiểu hệ thống Splunk 
 1. Giới thiệu tổng quan về Splunk
 
-   Giới thiệu công cụ giám sát an ninh mạng Splunk
+  - Giới thiệu công cụ giám sát an ninh mạng Splunk
 
       Splunk là một phần mềm giám sát mạng dựa trên sức mạnh của việc phân tích Log. Splunk thực hiện các công việc tìm kiếm, giám sát và phân tích các dữ liệu lớn được sinh ra từ các ứng dụng, các hệ thống và các thiết bị hạ tầng mạng. Nó có thể thao tác tốt với nhiều loại dịnh dạng dữ liệu khác nhau (Syslog, csv, apache-log, access_combined…). Splunk được xây dựng dựa trên nền tảng Lucene and MongoDB với một giao diện web hết sức trực quan.
 
-   Chính sách bản quyền: Splunk cung cấp 2 bộ miễn phí và trả phí cho người dùng
+  - Chính sách bản quyền: Splunk cung cấp 2 bộ miễn phí và trả phí cho người dùng
 
-      -Sản phẩm trả phí: Có tất cả các chức năng và không hạn chế kích thước dữ liệu.
+      Sản phẩm trả phí: Có tất cả các chức năng và không hạn chế kích thước dữ liệu.
 
-      -Sản phầm miễn phí: Hạn chế một số chức năng, hạn chế khối lượng dữ liệu mỗi ngày là 500MB. Bao gồm các chức năng: Data indexing, real-time search, statistics and report output.
+      Sản phầm miễn phí: Hạn chế một số chức năng, hạn chế khối lượng dữ liệu mỗi ngày là 500MB. Bao gồm các chức năng: Data indexing, real-time search, statistics and report output.
+
+   - 
 
 
 2. Cài đặt hệ thống Splunk
