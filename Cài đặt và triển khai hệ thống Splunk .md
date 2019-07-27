@@ -14,13 +14,14 @@
 
    Sau khi cài đặt đặt thành công thì bạn sẽ thấy output như sau:
 
-   `(Reading database ... 218552 files and directories currently installed.)
-   Preparing to unpack splunk-7.1.1-8f0ead9ec3db-linux-2.6-amd64.deb ...
-   Unpacking splunk (7.1.1) over (7.1.1) ...
-   Setting up splunk (7.1.1) ...
-   complete`
+   `(Reading database ... 218552 files and directories currently installed.)`
+   `Preparing to unpack splunk-7.1.1-8f0ead9ec3db-linux-2.6-amd64.deb ...`
+   `Unpacking splunk (7.1.1) over (7.1.1) ...`
+   `Setting up splunk (7.1.1) ...`
+   `complete`
 
    Tiếp theo, bạn cần phải enable dịch vụ Splunk để bắt đầu trong boot time. Bạn cần phải chạy lệnh sau:
+
 
 
 
