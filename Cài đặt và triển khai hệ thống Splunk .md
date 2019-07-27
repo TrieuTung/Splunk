@@ -8,15 +8,15 @@
 
    Bạn có thể cài file đã download bằng lệnh sau:
 
-         dpkg -i splunk-7.1.1-8f0ead9ec3db-linux-2.6-amd64.deb
+       dpkg -i splunk-7.1.1-8f0ead9ec3db-linux-2.6-amd64.deb
 
    Sau khi cài đặt đặt thành công thì bạn sẽ thấy output như sau:
 
-         (Reading database ... 218552 files and directories currently installed.)
-         Preparing to unpack splunk-7.1.1-8f0ead9ec3db-linux-2.6-amd64.deb ...
-         Unpacking splunk (7.1.1) over (7.1.1) ...
-         Setting up splunk (7.1.1) ...
-         complete
+       (Reading database ... 218552 files and directories currently installed.)
+       Preparing to unpack splunk-7.1.1-8f0ead9ec3db-linux-2.6-amd64.deb ...
+       Unpacking splunk (7.1.1) over (7.1.1) ...
+       Setting up splunk (7.1.1) ...
+       complete
 
    Tiếp theo, bạn cần phải enable dịch vụ Splunk để bắt đầu trong boot time. Bạn cần phải chạy lệnh sau:
 
@@ -60,6 +60,10 @@
        sudo service splunk start
 
    Bây giờ hệ thống của bạn đang chạy và lắng nghe trên port:8000. Bạn có thể vào hệ thống của bạn trên web với đường dẫn sau: http://your_server_ip:8000.
+
+![Screenshot from 2019-07-27 15-50-46](file://media/147571396.png)
+
+
 
 
 
