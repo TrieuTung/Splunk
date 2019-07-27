@@ -7,8 +7,9 @@
 
    Chính sách bản quyền: Splunk cung cấp 2 bộ miễn phí và trả phí cho người dùng
 
-        Sản phẩm trả phí: Có tất cả các chức năng và không hạn chế kích thước dữ liệu.
-        Sản phầm miễn phí: Hạn chế một số chức năng, hạn chế khối lượng dữ liệu mỗi ngày là 500MB. Bao gồm các chức năng: Data indexing, real-time search, statistics and report output.
+      -Sản phẩm trả phí: Có tất cả các chức năng và không hạn chế kích thước dữ liệu.
+
+      -Sản phầm miễn phí: Hạn chế một số chức năng, hạn chế khối lượng dữ liệu mỗi ngày là 500MB. Bao gồm các chức năng: Data indexing, real-time search, statistics and report output.
 
 
 2. Cài đặt hệ thống Splunk
