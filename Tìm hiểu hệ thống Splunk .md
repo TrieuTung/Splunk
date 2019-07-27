@@ -11,8 +11,33 @@
 
       Sản phầm miễn phí: Hạn chế một số chức năng, hạn chế khối lượng dữ liệu mỗi ngày là 500MB. Bao gồm các chức năng: Data indexing, real-time search, statistics and report output.
 
-   - 
+  - Tính năng định dạng log
 
+      Splunk hỗ trợ hầu như tất cả các loại log của hệ thống, thiết bị hạ tầng mạng, phần mềm, Firewall, IDS/IPS, Log Event, Register của các máy trạm…
+
+  - Các hình thức thu thập dữ liệu
+  
+       Splunk có thể thực hiện việc thu thập log từ rất nhiều nguồn khác nhau. 
+
+            From a file or folder (including compressed files) on the server
+            Through UDP and TCP connections from Splunk Servers in the distributed Splunk model
+            From Event Logs, Windows Registry ...
+
+       Splunk cũng kết hợp rất tốt với các công cụ thu thập log khác để tăng hiệu năng của hệ thống. 
+
+       Update data: Splunk cập nhật dữ liệu liên tục khi có thay đổi trong thời gian thực. Giúp cho việc phát hiện và cảnh báo chính xác trong thời gian thực.
+
+       Data indexing: Splunk được xây dựng trên Lucence, có thể đánh chỉ mục dữ liệu với một khối lượng dữ liệu rất lớn trong một khoảng thời gian ngắn. Giúp việc tìm kiếm diễn ra nhanh chóng và thuận tiện.
+
+       Finding information: Splunk làm việc rất tốt với dữ liệu lớn và cập nhật liên tục. Nó cung cấp cơ chế tìm kiếm với một “Splunk Language” cực kỳ thông minh bao gồm các từ khóa, các hàm và cấu trúc tìm kiếm giúp người sử dụng có thể truy xuất mọi thứ, theo rất nhiều tiêu chí từ tập dữ liệu rất lớn. Những nhà quản trị mạng cao cấp và chuyên nghiệp thường gọi Splunk với cái tên “Splunk toàn năng” hay “Splunk as Google for Log files” để nói lên sức mạnh của Splunk.
+
+       Network security monitoring and warnings: Splunk cung cấp cho người dùng một cơ chế cảnh báo dựa trên việc tìm kiếm các thông tin do chính người sử dụng đặt ra. Khi có vấn đề liên quan tới hệ thống phù hợp với các tiêu chí mà người dùng đã đặt ra thì hệ thống sẽ cảnh báo ngay tới người dùng (cảnh bảo trực tiếp qua giao diện, giử Email).
+
+       Troubleshooting: Splunk còn cung cấp một cơ chế tự động khắc phục với các vấn đề xảy ra bằng việc cấu hình để tự động chạy các file Script mà người dùng tự tạo (Ví dụ như: Chặn IP, đòng Port …) khi có các cảnh báo xảy ra.
+
+       Information display: Splunk cung cấp một cơ chế hiển thị trực quan giúp người sử dụng có thể dễ dàng hình dung về tình trạng của hệ thống, đưa ra các đánh giá về hệ thống. Splunk còn từ động kết xuất ra các báo cáo với nhiều loại định dạng một cách chuyên nghiệp.
+
+       Lưu ý: Splunk mạnh về khả năng phân tích và cảnh báo tuy nhiên nó lại không mạnh và không đảm bảo về việc thu thập và truyền tải log. Cụ thể là nó chưa có cơ chế bảo mật trên đường truyền, không phù hợp với những hệ thống đòi hỏi bảo mật cao. Để phát huy hết được sức mạnh của Splunk cần có thời gian tìm hiểu và sử dụng. Splunk chưa có cơ chế giúp tự động phát hiện ra các tấn công hay các vấn đề từ bên ngoài. Những điều này phụ thuộc vào kinh nghiệm sử dụng và vốn hiểu biết về bảo mật của người quản trị. Đề triển khai được một hệ thống sử dụng Splunk hiệu quả chúng ta cũng cần có một hệ thống riêng, đây cũng là một trở ngại không nhỏ với các hệ thống có quy mô trung bình và nhỏ. 
 
 2. Cài đặt hệ thống Splunk
  
